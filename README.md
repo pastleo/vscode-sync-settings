@@ -1,5 +1,6 @@
 # vscode-sync-settings
-My VSCode settings
+
+My VSCode settings, synchronized by https://github.com/shanalikhan/code-settings-sync
 
 ## Setup
 
@@ -8,6 +9,8 @@ My VSCode settings
 ```
 mkdir -p ~/.config
 git clone https://github.com/pastleo/vscode-sync-settings.git ~/.config/vscode-sync-settings
+cd ~/.config/vscode-sync-settings
+git remote set-url --push origin git@github.com:pastleo/vscode-sync-settings.git
 ```
 
 ### 2. Install vscode extension `Sync Settings`

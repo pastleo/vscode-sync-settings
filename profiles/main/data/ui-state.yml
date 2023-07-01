@@ -77,7 +77,7 @@ workbench.activity.placeholderViewlets: "[{\"id\":\"workbench.view.explorer\",\
   Changes\",\"isBuiltin\":true,\"views\":[{\"when\":\"editSessionsShowView\"}]}\
   ]"
 workbench.auxiliaryBar.size: "256"
-workbench.editor.languageDetectionOpenedLanguages.global: '[["markdown",true],["typescriptreact",true],["wgsl",true],["javascript",true],["ignore",true],["jsonc",true],["json",true],["plaintext",true],["astro",true],["typescript",true],["lua",true],["yaml",true]]'
+workbench.editor.languageDetectionOpenedLanguages.global: '[["typescriptreact",true],["wgsl",true],["javascript",true],["ignore",true],["json",true],["astro",true],["typescript",true],["lua",true],["yaml",true],["plaintext",true],["jsonc",true],["markdown",true]]'
 workbench.explorer.views.state.hidden: '[{"id":"outline","isHidden":false},{"id":"timeline","isHidden":false},{"id":"workbench.explorer.openEditorsView","isHidden":true},{"id":"workbench.explorer.emptyView","isHidden":false},{"id":"workbench.explorer.fileView","isHidden":false},{"id":"npm","isHidden":true}]'
 workbench.grid.size: '{"height":768,"width":1024}'
 workbench.panel.alignment: center
@@ -94,7 +94,7 @@ workbench.panel.repl.hidden: '[{"id":"workbench.panel.repl.view","isHidden":fals
 workbench.panel.size: "77"
 workbench.scm.views.state.hidden: '[{"id":"workbench.scm.repositories","isHidden":true},{"id":"workbench.scm","isHidden":false}]'
 workbench.sideBar.size: "170"
-workbench.statusbar.hidden: '["status.workspaceTrust.1685780640379","status.workspaceTrust.944123c90e9c250b8be64d8fa50dd7b0","status.workspaceTrust.984180f95715c9193b0355de118cb78f","status.workspaceTrust.ed910b996701075a4982cb1e70595281","status.workspaceTrust.2065b6224888ebbdb0ef08db23535a52","status.workspaceTrust.1685808225654","status.workspaceTrust.cf2ba62d71511a450f8b9c29a1046e92","status.workspaceTrust.5a5f0d4f2b98bc0163e29f06d7998880","status.workspaceTrust.c534b863a96ce4dc002f4a78a70031ae","status.workspaceTrust.2c51a103c8630af841754d0ff7d8d1f7","status.workspaceTrust.6ebeb9e02d144c8277bd740a786ff959","status.workspaceTrust.234d13e63c579b8e30d17d3b7564f5cd"]'
+workbench.statusbar.hidden: '["status.workspaceTrust.1685780640379","status.workspaceTrust.944123c90e9c250b8be64d8fa50dd7b0","status.workspaceTrust.984180f95715c9193b0355de118cb78f","status.workspaceTrust.ed910b996701075a4982cb1e70595281","status.workspaceTrust.2065b6224888ebbdb0ef08db23535a52","status.workspaceTrust.1685808225654","status.workspaceTrust.cf2ba62d71511a450f8b9c29a1046e92","status.workspaceTrust.5a5f0d4f2b98bc0163e29f06d7998880","status.workspaceTrust.c534b863a96ce4dc002f4a78a70031ae","status.workspaceTrust.2c51a103c8630af841754d0ff7d8d1f7","status.workspaceTrust.6ebeb9e02d144c8277bd740a786ff959","status.workspaceTrust.234d13e63c579b8e30d17d3b7564f5cd","status.workspaceTrust.1688209466754","status.workspaceTrust.d55806ae68a2c8f76a28f24a0896681b"]'
 workbench.telemetryOptOutShown: "true"
 workbench.view.debug.state.hidden: '[{"id":"workbench.debug.welcome","isHidden":false},{"id":"workbench.debug.variablesView","isHidden":false},{"id":"workbench.debug.watchExpressionsView","isHidden":false},{"id":"workbench.debug.callStackView","isHidden":false},{"id":"workbench.debug.loadedScriptsView","isHidden":false},{"id":"workbench.debug.breakPointsView","isHidden":false},{"id":"jsBrowserBreakpoints","isHidden":false},{"id":"jsExcludedCallers","isHidden":false}]'
 workbench.view.extension.dockerView.state.hidden: '[{"id":"dockerContainers","isHidden":false},{"id":"dockerImages","isHidden":false},{"id":"dockerRegistries","isHidden":false},{"id":"dockerNetworks","isHidden":false},{"id":"dockerVolumes","isHidden":false},{"id":"vscode-docker.views.dockerContexts","isHidden":false},{"id":"vscode-docker.views.help","isHidden":false}]'
@@ -104,7 +104,7 @@ workbench.view.extensions.state.hidden: '[{"id":"workbench.views.extensions.inst
 workbench.view.remote.state.hidden: '[{"id":"targetsContainers","isHidden":false},{"id":"detailsContainers","isHidden":false},{"id":"devVolumes","isHidden":false}]'
 workbench.view.search.state.hidden: '[{"id":"workbench.view.search","isHidden":false}]'
 workbench.view.sync.state.hidden: '[{"id":"workbench.views.sync.conflicts","isHidden":false},{"id":"workbench.views.sync.remoteActivity","isHidden":false},{"id":"workbench.views.sync.machines","isHidden":false},{"id":"workbench.views.sync.localActivity","isHidden":true},{"id":"workbench.views.sync.troubleshoot","isHidden":true}]'
-workbench.views.extensions.installed.size: "10"
+workbench.views.extensions.installed.size: "12"
 workbench.welcomePage.extensionMetadata.github.copilot: '{"title":"GitHub
   Copilot","description":"Your AI pair
   programmer","imagePath":"https://github.gallerycdn.vsassets.io/extensions/github/copilot/1.89.156/1686588031563/Microsoft.VisualStudio.Services.Icons.Default","date":1686668603655}'
