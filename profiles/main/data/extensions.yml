@@ -4,10 +4,10 @@ enabled:
     uuid: 1fbbc8b0-7432-4b7e-8774-3336151da2f3
   - id: asvetliakov.vscode-neovim
     uuid: caf8995c-5426-4bf7-9d01-f7968ebd49bb
+  - id: GitHub.copilot
+    uuid: 23c4aeee-f844-43cd-b53e-1113e483f1a6
   - id: GitHub.copilot-chat
     uuid: 7ec7d6e6-b89e-4cc5-a59b-d6c4d238246f
-  - id: GitHub.copilot-nightly
-    uuid: c2321d37-f89d-47b1-92b5-9db847d8f654
   - id: JakeBecker.elixir-ls
     uuid: bc64531a-9b98-46f5-8ef9-88334d02cd60
   - id: ms-azuretools.vscode-docker
