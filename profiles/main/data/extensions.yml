@@ -8,6 +8,8 @@ enabled:
     uuid: 23c4aeee-f844-43cd-b53e-1113e483f1a6
   - id: GitHub.copilot-chat
     uuid: 7ec7d6e6-b89e-4cc5-a59b-d6c4d238246f
+  - id: github.vscode-github-actions
+    uuid: 04f49bfc-8330-4eee-8237-ea938fb755ef
   - id: JakeBecker.elixir-ls
     uuid: bc64531a-9b98-46f5-8ef9-88334d02cd60
   - id: ms-azuretools.vscode-docker
