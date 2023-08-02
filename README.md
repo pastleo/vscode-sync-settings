@@ -33,11 +33,15 @@ repository:
 
 ### 4. `> Sync Settings: Download (repository -> user)`
 
+VsCode will restart, if it failed to start after closing, just start manually
+
+---
+
 ## Upload setting
 
 ### 1. `> Sync Settings: Upload (user -> repository)`
 
-to copy settings to git repository and git commit 
+to copy settings to git repository and git commit
 
 ### 2. Git push
 
@@ -45,3 +49,16 @@ to copy settings to git repository and git commit
 cd ~/.config/vscode-sync-settings
 git push
 ```
+
+## Download setting
+
+### 1. Git pull
+
+```sh
+cd ~/.config/vscode-sync-settings
+git pull
+```
+
+### 2. `> Sync Settings: Download (repository -> user)`
+
+VsCode will restart, if it failed to start after closing, just start manually
