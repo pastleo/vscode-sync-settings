@@ -39,11 +39,15 @@ VsCode will restart, if it failed to start after closing, just start manually
 
 ## Upload setting
 
-### 1. `> Sync Settings: Upload (user -> repository)`
+### 1. Close all files and projects/folders
+
+`File` > `Close Folder`
+
+### 2. `> Sync Settings: Upload (user -> repository)`
 
 to copy settings to git repository and git commit
 
-### 2. Git push
+### 3. Git push
 
 ```
 cd ~/.config/vscode-sync-settings

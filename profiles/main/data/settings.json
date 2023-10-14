@@ -74,5 +74,8 @@
     "editor.lineNumbers": "relative",
     "liveServer.settings.host": "0.0.0.0",
     "files.trimTrailingWhitespace": true,
-    "keyboard.touchbar.enabled": false
+    "keyboard.touchbar.enabled": false,
+    "extensions.experimental.affinity": {
+        "asvetliakov.vscode-neovim": 1
+    }
 }
