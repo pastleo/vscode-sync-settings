@@ -2,7 +2,11 @@
 
 My VSCode settings, synchronized by https://github.com/shanalikhan/code-settings-sync
 
-## Setup
+## Install vscode extension `Sync Settings`
+
+https://marketplace.visualstudio.com/items?itemName=zokugun.sync-settings
+
+## Setup - push & pull with `type: file` and self-managed git repo
 
 ### 1. Git clone `pastleo/vscode-sync-settings`
 
@@ -13,27 +17,45 @@ cd ~/.config/vscode-sync-settings
 git remote set-url --push origin git@github.com:pastleo/vscode-sync-settings.git
 ```
 
-### 2. Install vscode extension `Sync Settings`
+### 2. Run command (by Ctrl+Shift+P): `> Sync Settings: Open the repository settings`
 
-https://marketplace.visualstudio.com/items?itemName=zokugun.sync-settings
-
-### 3. Run command (by Ctrl+Shift+P): `> Sync Settings: Open the repository settings`
-
-```sh
-# current machine's name, optional; it can be used to filter settings or in the commit message
+```yml
 hostname: ""
-# more details at https://github.com/zokugun/vscode-sync-settings/blob/master/docs/hostname.md
+profile: main
+repository:
+  type: file
+  path: ~/.config/vscode-sync-settings
+```
 
+## Setup - pull only with remote `type: git`
+
+### 1. Run command (by Ctrl+Shift+P): `> Sync Settings: Open the repository settings`
+
+```yml
+hostname: ""
 profile: main
 repository:
   type: git
-  path: ~/.config/vscode-sync-settings
+  url: https://github.com/pastleo/vscode-sync-settings.git
   branch: main
 ```
 
-### 4. `> Sync Settings: Download (repository -> user)`
+---
 
-VsCode will restart, if it failed to start after closing, just start manually
+## Download setting
+
+### 1. Git pull if with `type: file` and self-managed git repo
+
+```sh
+cd ~/.config/vscode-sync-settings
+git pull
+```
+
+### 2. `> Sync Settings: Download (repository -> user)`
+
+VsCode might restart, if it failed to start after closing, just start manually
+
+> don't know why, nvim integration extension is disabled, need to enable manually after first `Download`
 
 ---
 
@@ -47,22 +69,12 @@ VsCode will restart, if it failed to start after closing, just start manually
 
 to copy settings to git repository and git commit
 
-### 3. Git push
-
-```
-cd ~/.config/vscode-sync-settings
-git push
-```
-
-## Download setting
-
-### 1. Git pull
+### 3. Review changes, git commit & push
 
 ```sh
 cd ~/.config/vscode-sync-settings
-git pull
+git diff
+git add --all
+git commit -m "update -- $(date +"%Y-%m-%dT%H:%M:%S%z")"
+git push
 ```
-
-### 2. `> Sync Settings: Download (repository -> user)`
-
-VsCode will restart, if it failed to start after closing, just start manually
