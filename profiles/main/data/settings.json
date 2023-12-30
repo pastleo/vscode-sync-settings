@@ -83,5 +83,7 @@
         "keybindings",
         "settings",
         "snippets",
-    ]
+    ],
+    "window.restoreWindows": "none",
+    "files.hotExit": "off"
 }
