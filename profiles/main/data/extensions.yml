@@ -2,10 +2,6 @@ disabled: []
 enabled:
   - id: astro-build.astro-vscode
     uuid: 1fbbc8b0-7432-4b7e-8774-3336151da2f3
-  - id: Continue.continue
-    uuid: c8d442ab-9ee3-4891-a5b0-994f14f54c94
-  - id: fregante.ghost-text
-    uuid: 1d5d22c0-5b7c-4446-8d03-6c90a23dc33b
   - id: GitHub.copilot
     uuid: 23c4aeee-f844-43cd-b53e-1113e483f1a6
   - id: GitHub.copilot-chat
@@ -13,9 +9,11 @@ enabled:
   - id: JakeBecker.elixir-ls
     uuid: bc64531a-9b98-46f5-8ef9-88334d02cd60
   - id: ritwickdey.LiveServer
-    uuid: b63c44fd-0457-4696-99e9-dbfdf70d77de
+    uuid: 46cc5bbd-b098-4568-9b87-f91e07d26f2d
   - id: sainnhe.everforest
     uuid: 330982cd-dddd-4939-b9ad-656ce474b089
+  - id: saoudrizwan.claude-dev
+    uuid: ad94c633-a9d5-4f78-b85f-c664e7d91a0f
   - id: vscodevim.vim
     uuid: d96e79c6-8b25-4be3-8545-0e0ecefcae03
   - id: zokugun.cron-tasks
